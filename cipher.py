@@ -13,7 +13,7 @@ def cipher_check(command):
             if any(secure in i for secure in secures):
                 print(i, "-- [SECURE]")
             else:
-                print(i, "-- [WEEK]")
+                print(i, "-- [WEAK]")
         else:
             print(i)
 
